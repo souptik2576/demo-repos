@@ -23,7 +23,7 @@ jobs:
           # branch should not be protected
           branch: 'main'
           allowlist: user1,bot*
-          use-remote-repo: 'true'
+          use-remote-repo: true
           remote-repo-name: 'souptik2576/test-repo'
           remote-repo-pat: 'souptik2576'
 
