@@ -24,13 +24,9 @@ jobs:
           branch: 'main'
           allowlist: user1,bot*
 
-          use-remote-repo: true
-          remote-repo-name: 'souptik2576/test-repo'
-          remote-repo-pat: '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'
-
          #below are the optional inputs - If the optional inputs are not given, then default values will be taken
-          #remote-organization-name: 'souptik-saha123'
-          #remote-repository-name: 'souptik2576/test-repo'          
+          remote-organization-name: 'souptik-saha123'
+          remote-repository-name: 'souptik-saha123/test'          
           #create-file-commit-message: 'For example: Creating file for storing CLA Signatures'
           #signed-commit-message: 'For example: $contributorName has signed the CLA in #$pullRequestNo'
           #custom-notsigned-prcomment: 'pull request comment with Introductory message to ask new contributors to sign'
