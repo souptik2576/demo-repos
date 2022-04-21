@@ -23,6 +23,9 @@ jobs:
           # branch should not be protected
           branch: 'main'
           allowlist: user1,bot*
+          use-remote-repo: 'true'
+          remote-repo-name: 'souptik2576/test-repo'
+          remote-repo-pat: 'souptik2576'
 
          #below are the optional inputs - If the optional inputs are not given, then default values will be taken
           #remote-organization-name: 'souptik-saha123'
